@@ -6,5 +6,14 @@
 - Estrutura
 
 ## Tags
-- `<h1> a <h5>` -> tags HTML para título e é recomendado usar para sites até `<h3>`;
-- `<a>` -> Link ('a' de âncora) usado para definir a navegação do usuário para um lugar determinado no conteúdo do atributo `href`.
+- `<body>` &rarr; parte com conteúdo visível ao usário;
+- `<head>` &rarr; parte de configurações e metadados não visível ao usuário;
+- `<header>` &rarr; seção do cabeçalho do site;
+- `<nav>` &rarr; menu de navegação
+- `<h1> a <h5>` &rarr; tags HTML para título e é recomendado usar para sites até `<h3>`;
+- `<a>` &rarr; Link ('a' de âncora) usado para definir a navegação do usuário para um lugar determinado no conteúdo do atributo `href`.
+
+# CSS
+
+É uma linguagem de estilos que tem as seguintes responsabilidades:
+- Visual;
