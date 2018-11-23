@@ -17,3 +17,9 @@
 
 É uma linguagem de estilos que tem as seguintes responsabilidades:
 - Visual;
+
+
+## Reset CSS
+Você construir o seu reset do CSS, mas pode utilizar opções prontas, como por exemplo:
+- **Eric Meyer** &rarr; Indicado para maioria dos projetos;  
+- **Normalize** &rarr; Indicado para grandes projetos;
