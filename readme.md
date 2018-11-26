@@ -37,3 +37,15 @@ Você construir o seu reset do CSS, mas pode utilizar opções prontas, como por
 - O elemento flutuante nunca irá sobrepor conteúdo de texto dos elementos que ocuparam o espaço vago do contexto anterior;
 - O tamanho do elemento com float é ajustado de linha inteira para o tamanho do seu conteúdo;
 - Como o elemento pai ignora o elemento com float, ele acaba perdendo o tamanho de sua altura que era ajustada de acordo com o tamanho desse elemento filho e para resolver precisa usar a propriedade “overflow: hidden” no elemento pai;
+
+## Opçães de valores resumidos dos atributos de PADDING/MARGIN
+
+### Opção 1
+
+`padding: <top> <right> <bottom> <left>;`
+
+### Opção 2
+`margin: <top e bottom> <right e left>;`
+
+### Opção 3
+`padding: <top> <right e left> <bottom>;`
