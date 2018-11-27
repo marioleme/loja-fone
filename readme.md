@@ -19,7 +19,8 @@
 - `<header>` &rarr; seção do cabeçalho do site;
 - `<nav>` &rarr; menu de navegação
 - `<h1> a <h5>` &rarr; tags HTML para título e é recomendado usar para sites até `<h3>`;
-- `<a>` &rarr; Link ('a' de âncora) usado para definir a navegação do usuário para um lugar determinado no conteúdo do atributo `href`.
+- `<a>` &rarr; Link ('a' de âncora) usado para definir a navegação do usuário para um lugar determinado no conteúdo do atributo `href`;
+- `<div>` &rarr; sem valor semântico e serve apenas para dividir ou separar conteúdos;
 
 ## Boas práticas com **Botões**
 - Quando o botão for direcionar o usuário para outra página, pode ser a tag `a` (link) pois relamente se trata de um link para outra página;
