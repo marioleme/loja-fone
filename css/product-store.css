@@ -15,7 +15,7 @@
 
 .product-store .title {
     font-weight: bold;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 
 .product-store .item {
@@ -23,7 +23,7 @@
 }
 
 .product-store .item.-preco {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .product-store .description {
@@ -47,4 +47,22 @@
 
 .button-cart {
     margin-right: 35px;
+}
+
+.galleryProds {
+    float: left;
+    background-color: #fff;
+    padding-left: 300px;
+    margin-left: -300px;
+    border-radius: 150px;
+    margin-top: -20px;
+}
+
+.imgProduct {
+    transform: translateX(50px) translateY(10px);
+}
+
+.infoProduct {
+    margin-left: 700px;
+    margin-top: 30px;
 }
