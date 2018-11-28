@@ -10,6 +10,8 @@
 É uma linguagem de estilos que tem as seguintes responsabilidades:
 - Visual;
 
+## Geral
+- Call to action (cta) &rarr; botão principal ou botão de ação da página;
 
 # HTML - Tópicos importantes
 
@@ -21,6 +23,7 @@
 - `<h1> a <h5>` &rarr; tags HTML para título e é recomendado usar para sites até `<h3>`;
 - `<a>` &rarr; Link ('a' de âncora) usado para definir a navegação do usuário para um lugar determinado no conteúdo do atributo `href`;
 - `<div>` &rarr; sem valor semântico e serve apenas para dividir ou separar conteúdos;
+- `<dl>` &rarr; chamada de description list, que serve para descrever um grupo de informação sobre alguma coisa, agrupando as informações de título com a tag description title `<dt>` e definindo sua descrição com define description `<dd>`;
 
 ## Boas práticas com **Botões**
 - Quando o botão for direcionar o usuário para outra página, pode ser a tag `a` (link) pois relamente se trata de um link para outra página;
