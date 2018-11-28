@@ -1,0 +1,41 @@
+.product-store {
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFF;
+}
+
+.product-store .title,
+.product-store .item,
+.product-store .description {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.product-store .title {
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.product-store .item {
+    margin-bottom: 15px;
+}
+
+.product-store .item.-preco {
+    margin-bottom: 70px;
+}
+
+.product-store .description {
+    margin-bottom: 40px;
+}
+
+.product-store .more-action {
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+.product-store .more-action .action {
+    text-decoration: none;
+    color: inherit;
+}
