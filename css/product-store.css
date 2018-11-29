@@ -5,21 +5,23 @@
     color: #FFF;
 }
 
-/* CÓDIGO DESAFIO AULA 006 DE CORREÇÃO DO MARCO */
 .product-store > .title {
     font-size: 25px;
     margin-bottom: 50px;
 }
+
 .product-store > .item {
     font-size: 20px;
     margin-bottom: 30px;
 }
+
 .product-store > .item.-info {
     width: 200px;
     text-align: right;
 }
+
 .product-store > .item.-last {
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 
 .rateFull,
@@ -34,6 +36,7 @@
     background-repeat: no-repeat;
     padding: 0 12px;
 }
+
 .product-store > .item .rateEmpty::after {
     content: '';
     background: url(../img/starEmpty.svg);
@@ -42,83 +45,19 @@
 
 }
 
-
 .product-store .contrast {
     text-transform: uppercase;
     float: left;
 }
+
 .product-store > .text {
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 30px;
 }
+
 .product-store .action {
     color: inherit;
     font-size: 20px;
     text-decoration: none;
 }
-
-
-/* MEU CÓDIGO DO DESAFIO
-
-.product-store .title,
-.product-store .item,
-.product-store .description {
-    font-size: 20px;
-    line-height: 35px;
-}
-
-.product-store .title {
-    font-weight: bold;
-    margin-bottom: 90px;
-}
-
-.product-store .item {
-    margin-bottom: 15px;
-}
-
-.product-store .item.-preco {
-    margin-bottom: 50px;
-}
-
-.product-store .description {
-    margin-bottom: 40px;
-}
-
-.product-store .more {
-    font-size: 25px;
-    margin-bottom: 100px;
-}
-
-.product-store .more .action {
-    text-decoration: none;
-    color: inherit;
-}
-
-.button-cart,
-.button-buy {
-    display: inline-block;
-}
-
-.button-cart {
-    margin-right: 35px;
-}
-
-.galleryProds {
-    float: left;
-    background-color: #fff;
-    padding-left: 300px;
-    margin-left: -300px;
-    border-radius: 150px;
-    margin-top: -20px;
-}
-
-.imgProduct {
-    transform: translateX(50px) translateY(10px);
-}
-
-.infoProduct {
-    margin-left: 700px;
-    margin-top: 30px;
-}
-*/

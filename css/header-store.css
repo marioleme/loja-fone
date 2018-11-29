@@ -14,7 +14,7 @@
 .header-store > .search > .input {
     float: right;
     border: 0;
-    border-bottom: 2px solid #FFF;
+    border-bottom: 1px solid #FFF;
     width: 400px;
     background-color: transparent;
     margin-right: 60px;
