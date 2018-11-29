@@ -1,0 +1,5 @@
+.wrap-product {
+    display: inline-block; /* transforma o conteúdo em comportamento de palavra para se acomodar na mesma linha da imagem */
+    width: 554px;
+    vertical-align: middle;
+}

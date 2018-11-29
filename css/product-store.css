@@ -1,10 +1,43 @@
 .product-store {
-    margin-top: 100px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 20px;
     color: #FFF;
 }
+
+/* CÓDIGO DESAFIO AULA 006 DE CORREÇÃO DO MARCO */
+.product-store > .title {
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+.product-store > .item {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+.product-store > .item.-info {
+    width: 200px;
+    text-align: right;
+}
+.product-store > .item.-last {
+    margin-bottom: 70px;
+}
+.product-store .contrast {
+    text-transform: uppercase;
+    float: left;
+}
+.product-store > .text {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.product-store .action {
+    color: inherit;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/* MEU CÓDIGO DO DESAFIO
 
 .product-store .title,
 .product-store .item,
@@ -30,12 +63,12 @@
     margin-bottom: 40px;
 }
 
-.product-store .more-action {
+.product-store .more {
     font-size: 25px;
     margin-bottom: 100px;
 }
 
-.product-store .more-action .action {
+.product-store .more .action {
     text-decoration: none;
     color: inherit;
 }
@@ -66,3 +99,4 @@
     margin-left: 700px;
     margin-top: 30px;
 }
+*/

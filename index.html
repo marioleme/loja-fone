@@ -3,9 +3,15 @@
     <head>
         <meta charset="utf-8">
         <title>Loja de Fone</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+
         <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/container-store.css">
         <link rel="stylesheet" href="css/header-store.css">
+        <link rel="stylesheet" href="css/photo-product.css">
+        <link rel="stylesheet" href="css/wrap-product.css">
         <link rel="stylesheet" href="css/button-store.css">
         <link rel="stylesheet" href="css/product-store.css">
     </head>
@@ -13,38 +19,32 @@
     <body>
         <div class="container-store">
             <header class="header-store">
-                <h1 class="title">LOGO</h1>
+                <h1 class="title">Logo</h1>
                 <nav class="navigation">
                     <a class="action" href="http://collabcode.training">Produtos</a>
                     <a class="action" href="http://collabcode.training">Serviços</a>
-                    <a class="action last" href="http://collabcode.training">Carrinho (10)</a>
+                    <a class="action -last" href="http://collabcode.training">Carrinho (10)</a>
                 </nav>
             </header>
-
-            <dl class="product-store">
-
-                <dd class="galleryProds">
-                    <img class="imgProduct" src="img/imgHeadphone.png" alt="Imagem de modelo do Headphone na cor  vermelha">
-                </dd>
-                <div class="infoProduct">
-                <dt class="title">Rockerz 430 Bluetooth Headphones</dt>
-                <dl class="item">4.0 (97)</dl>
-                <dl class="item">Frete $ 15</dl>
-                <dl class="item -preco">Preço $ 100</dl>
-                <dd class="description">
-                    Advanced Bluetooth 4.1. CSR 8635 Chip with Bluetooth 4.1, powerful 40mm dynamic drivers to deliver rich sound, punchy, rhythmic response to the most demanding tracks for a high-quality audio experience.
-                </dd>
-                <dd class="more-action">
-                    <a class="action" href="">Saiba mais...</a>
-                </dd>
-                <dd class="button-cart">
-                    <button class="button-store -second">Adicionar ao carrinho</button>
-                </dd>
-                <dd class="button-buy">
-                    <a class="button-store" href="comprar.html">Comprar</a>
-                </dd>
-                </div>
-           </dl>
+            <figure class="photo-product">
+                <img src="img/imgHeadphone.png" alt="Imagem de fone de ouvido">
+            </figure>
+            <section class="wrap-product">
+                <dl class="product-store">
+                    <dt class="title">Rockerz 430 Bluetooth Headphones</dt>
+                    <dl class="item">4.0 (97)</dl>
+                    <dl class="item -info"><strong class="contrast">Frete</strong> $ 15</dl>
+                    <dl class="item -info -last"><strong class="contrast">Preço</strong> $ 100</dl>
+                    <dd class="text">
+                        Advanced Bluetooth 4.1. CSR 8635 Chip with Bluetooth 4.1, powerful 40mm dynamic drivers to deliver rich sound, punchy, rhythmic response to the most demanding tracks for a high-quality audio experience.
+                    </dd>
+                    <dd class="text">
+                        <a class="action" href="">Saiba mais...</a>
+                    </dd>
+                </dl>
+            </section>
+            <button class="button-store -second">Adicionar ao carrinho</button>
+            <a class="button-store" href="comprar.html">Comprar</a>
         </div>
     </body>
 </html>
