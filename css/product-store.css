@@ -30,21 +30,6 @@
     margin-left: 5px;
 }
 
-.product-store > .item .rateFull::after {
-    content: '';
-    background: url(../img/starFull.svg);
-    background-repeat: no-repeat;
-    padding: 0 12px;
-}
-
-.product-store > .item .rateEmpty::after {
-    content: '';
-    background: url(../img/starEmpty.svg);
-    background-repeat: no-repeat;
-    padding: 0 12px;
-
-}
-
 .product-store .contrast {
     text-transform: uppercase;
     float: left;
@@ -66,8 +51,9 @@
 
 
 /* Inclusão */
-.product-store > .item.-star {
+.product-store > .item.-star img {
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 /* Inclusão NOVA FORMA DE SELETOR --> 

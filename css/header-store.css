@@ -9,25 +9,8 @@
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     float: left;
+    cursor: pointer;
 }
-
-/*
-.header-store > .search > .input {
-    float: right;
-    border: 0;
-    border-bottom: 1px solid #FFF;
-    width: 400px;
-    background-color: transparent;
-    margin-right: 60px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 21px;
-    color: #FFF;
-}
-
-.header-store > .search > .input::placeholder {
-    color: #FFF;
-}
-*/
 
 .header-store > .navigation {
     float: right;
@@ -45,6 +28,9 @@
     margin-right: 0;
 }
 
+.header-store input[type="search"]::placeholder {
+    color: #FFF;
+}
 
 /* ALTERAÇÕES/INCLUSÕES/EXCLUSÕES CSS MARCO */
 
@@ -62,3 +48,5 @@
     width: 358px;
     margin-right: 65px;
 }
+
+

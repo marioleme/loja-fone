@@ -20,6 +20,7 @@
     width: 220px;
     line-height: 56px; /* ajustado por causa do border-box */
     margin-right: 35px;
+    cursor: pointer;
 }
 
 /* padronizando visual dos botões para tags 'buttom' e 'a' e facilitar sua reutilização, mas cuidado ao implementar por envolver seletores de tags ou crie classes para essas tags */
