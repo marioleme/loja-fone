@@ -11,6 +11,7 @@
     float: left;
 }
 
+/*
 .header-store > .search > .input {
     float: right;
     border: 0;
@@ -26,6 +27,7 @@
 .header-store > .search > .input::placeholder {
     color: #FFF;
 }
+*/
 
 .header-store > .navigation {
     float: right;
@@ -41,4 +43,22 @@
 
 .header-store .action.-last {
     margin-right: 0;
+}
+
+
+/* ALTERAÇÕES/INCLUSÕES/EXCLUSÕES CSS MARCO */
+
+/* trocando pelo CSS Busca do Marco */
+
+/* forma de selecinar pelo tipo de tag sem usar classe */
+.header-store input[type="search"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    color: inherit;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 7px;
+    width: 358px;
+    margin-right: 65px;
 }

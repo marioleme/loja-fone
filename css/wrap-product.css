@@ -2,4 +2,12 @@
     display: inline-block; /* transforma o conteúdo em comportamento de palavra para se acomodar na mesma linha da imagem */
     width: 554px;
     vertical-align: middle;
+    position: relative;
+}
+
+/* Troca do meu CSS wrap-button.css pelo abaixo do Marco */
+.wrap-product > .buttons {
+    position: absolute;
+    bottom: 0;
+    transform: translateY( calc( 100% + 98px ) );
 }

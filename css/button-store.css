@@ -11,6 +11,7 @@
     line-height: 60px;
     text-decoration: none;
     border: none; /* padronizar para tag 'button' e tag 'a' */
+    bottom: 0;
 }
 
 .button-store.-second { /* Variação do CSS principal acima */
