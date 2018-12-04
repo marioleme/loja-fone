@@ -8,6 +8,16 @@
 .product-store > .title {
     font-size: 25px;
     margin-bottom: 50px;
+    display: inline-block;
+}
+
+.product-store > .item.-star img {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.product-store > .item.-star + .item {
+    margin-left: 7px;
 }
 
 .product-store > .item {
@@ -45,19 +55,4 @@
     color: inherit;
     font-size: 20px;
     text-decoration: none;
-}
-
-/* ALTERAÇÕES/INCLUSÕES/EXCLUSÕES CSS MARCO */
-
-
-/* Inclusão */
-.product-store > .item.-star img {
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-
-/* Inclusão NOVA FORMA DE SELETOR --> 
-Para selecionar apenas o elemento irmão direto logo abaixo (posterior) do corrente, com determinada classe usando o sinal de "+" */
-.product-store > .item.-star + .item {
-    margin-left: 7px;
 }
