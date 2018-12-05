@@ -12,6 +12,23 @@
     text-decoration: none;
     border: none; /* padronizar para tag 'button' e tag 'a' */
     bottom: 0;
+    cursor: pointer;
+
+    transition: all 300ms linear; /* implementado transição em todas as propriedades que houver mudança de estado, neste caso as cores background e texto */
+
+    /* exemplos de animações por atributo
+        transition: background color 1s linear, color 2s linear;
+    */
+}
+
+.button-store:hover,
+.button-store:focus {
+    background-color: #FFFFFF;
+    color: #e24647;
+}
+
+.button-store:active {
+    transform: scale(0.9);
 }
 
 .button-store.-second { /* Variação do CSS principal acima */
@@ -20,7 +37,12 @@
     width: 220px;
     line-height: 56px; /* ajustado por causa do border-box */
     margin-right: 35px;
-    cursor: pointer;
+}
+
+.button-store.-second:hover,
+.button-store.-second:focus {
+    background-color: #FFFFFF;
+    color: #e24647;
 }
 
 /* padronizando visual dos botões para tags 'buttom' e 'a' e facilitar sua reutilização, mas cuidado ao implementar por envolver seletores de tags ou crie classes para essas tags */
@@ -31,13 +53,4 @@
     border: none;
     color: inherit;
     text-decoration: inherit;
-}
-
-.button-store:hover {
-    background-color: #FFFFFF;
-    color: #252c41;
-}
-.button-store.-second:hover {
-    background-color: #FFFFFF;
-    color: #e24647;
 }

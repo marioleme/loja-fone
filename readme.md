@@ -105,6 +105,13 @@ Você construir o seu reset do CSS, mas pode utilizar opções prontas, como por
 - Para deixar mais claro e performático nosso CSS utilizar o sinal de `**>**` entre os seletores de pais e filhos **diretos**
 
 
+## Sobre UX (para Front-end)
+### Conceitos
+- **Affordance** &rarr; é uma forma de medição da facilidade de uso e de quanto é intuitivo (entendimento) os elementos da sua interface para seus usuários e dessa forma identificar onde melhorar
+
+
+
+
 # Dicas profissionais
 - O compartilhamento de conhecimento leva à sedimenção do seu aprendizado. Aproveite!!
 - Procure utilizar termos em **inglês** no seu código e deixe em **português** o nome dos arquivos HTML

@@ -11,6 +11,18 @@
     display: inline-block;
 }
 
+.product-store > .item {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.product-store > .item.-heart {
+    position: absolute;
+    top: 8px;
+    transform: translateX(-100%);
+    left: -47px;
+}
+
 .product-store > .item.-star img {
     margin-bottom: 10px;
     cursor: pointer;
@@ -18,11 +30,6 @@
 
 .product-store > .item.-star + .item {
     margin-left: 7px;
-}
-
-.product-store > .item {
-    font-size: 20px;
-    margin-bottom: 30px;
 }
 
 .product-store > .item.-info {
