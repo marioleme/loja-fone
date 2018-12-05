@@ -18,30 +18,37 @@
     font-size: 21px;
 }
 
+.header-store > .navigation .navItem {
+  display: inline-block;
+  margin-right: 60px;
+  height: 40px;
+  line-height: 38px;
+}
+
+.header-store > .navigation .navItem.-comHover::after {
+  content:'';
+  position: relative;
+  display: block;
+  background-color: #e1ebe4;
+  width: 0;
+  padding-bottom: 1px;
+}
+
+.header-store > .navigation .navItem.-comHover:hover::after,
+.header-store > .navigation .navItem.-comHover:active::after {
+  width: 100%;
+  transition: width 300ms linear;
+}
+
 .header-store .action {
     color: inherit;
     text-decoration: none;
-    margin-right: 60px;
 }
 
-.header-store .action:hover {
-    padding-bottom: 7px;
-    border-bottom: 1px solid #FFFFFF;
-}
-
-.header-store .action.-last {
+.header-store .navItem.-last {
     margin-right: 0;
 }
 
-.header-store input[type="search"]::placeholder {
-    color: #FFF;
-}
-
-/* ALTERAÇÕES/INCLUSÕES/EXCLUSÕES CSS MARCO */
-
-/* trocando pelo CSS Busca do Marco */
-
-/* forma de selecinar pelo tipo de tag sem usar classe */
 .header-store input[type="search"] {
     background: transparent;
     border: none;
@@ -54,4 +61,6 @@
     margin-right: 65px;
 }
 
-
+.header-store input[type="search"]::placeholder {
+    color: #FFF;
+}
