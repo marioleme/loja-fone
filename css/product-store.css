@@ -21,6 +21,11 @@
     top: 8px;
     transform: translateX(-100%);
     left: -47px;
+    cursor: pointer;
+}
+
+.product-store > .item.-heart:hover img {
+    transform: scale(1.1);
 }
 
 .product-store > .item.-star img {
@@ -28,6 +33,9 @@
     cursor: pointer;
 }
 
+.product-store > .item.-star img:hover {
+    transform: scale(1.1);
+}
 .product-store > .item.-star + .item {
     margin-left: 7px;
 }
