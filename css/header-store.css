@@ -24,6 +24,11 @@
     margin-right: 60px;
 }
 
+.header-store .action:hover {
+    padding-bottom: 7px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
 .header-store .action.-last {
     margin-right: 0;
 }
