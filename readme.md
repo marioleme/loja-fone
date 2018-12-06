@@ -13,6 +13,29 @@
 ## Geral
 - Call to action (cta) &rarr; botão principal ou botão de ação da página;
 
+## Sobre UX (para Front-end)
+- **Affordance** &rarr; é uma forma de medição da facilidade de uso e de quanto é intuitivo (entendimento) os elementos da sua interface para seus usuários e dessa forma identificar onde melhorar
+
+## Dicas profissionais
+- O compartilhamento de conhecimento leva à sedimenção do seu aprendizado. Aproveite!!
+- Procure utilizar termos em **inglês** no seu código e deixe em **português** o nome dos arquivos HTML
+- organize seus arquivos de código em pastas por tipo
+
+## Sobre HTTP/HTTPS
+- **Conceito** &rarr; São protocolos, ou seja, padrões de comunicação entre as máquinas dos usuários e os servidores de internet com ênfase em troca de informações de texto
+- **Diferença entre eles** &rarr; o HTTP faz a comunicação sem segurança e as trocas de informações podem ser interceptadas mais facilmente. Já o HTTPS conta com uma criptografia nas informações trocadas com chaves conhecidas somente pela origem e pelo destino 
+- **Fluxo básico** &rarr; Usuário digita endereço de um site (REQUESIÇÃO) e recebe (RESPOSTA) as informações do site encontrado
+- **IP** &rarr; São os endereços reais que são buscados a cada requisição enviada a um servidor. Para facilitar nossa vida, protocolo permite acessar esses endereços pelos endereços de domínio (`www`) que são nomes mais fáceis de lembrar. A conversão de um endereço de domínio para um número de IP é feita com ajuda dos servidores DNS
+- **Caminho** ou **Path** ou **Recurso** &rarr; é o acesso de informações mais internas e/ou específicas do servidor após seu endereço principal. Veja no exemplo, que é todo caminho após o `.com`. Ex: `http://facebook.com/marco.bruno.br/posts`
+- **Query String** &rarr; Podemos acessar dentro desse caminho escolhido informações mais específicas adicionando uma query string para selecionar ou filtrar as respostas dessa requisição. Veja no ecemplo, todo o caminho colocado após o `posts` que seleciona um determinado post pelo seu id e seleciona apenas sua parte em formato texto. Ex: `http://facebook.com/marco.bruno.br/posts/?id=1&text=true`
+
+## Sobre SSH
+- **Conceito** &rarr; É um protocolo mais estreito e seguro com um determinado servidor como se você estivesse trabalhando dentro dele. A segurança da comunicação é feita com uso de chaves públicas, isto é, sua identificação ou credencial junto a esse servidor é feita pela chave gerado em sua máquina e cadastrada no servidor, sem necessidade de usar meios mais frágeis como login e senha
+
+
+
+
+
 # HTML - Tópicos importantes
 
 ## **Tags**
@@ -31,6 +54,9 @@
 - Para melhorar a acessibilidade e a pesquisa nos motores de busca (SEO), não aplique maiúsculas em textos no HTML. Deixe essa parte visual para o CSS
 - Para melhorar SEO utilize a tag `strong` em textos de destaque direto no HTML e com uma classe nessa tag, configure o tipo de destaque no CSS, seja maiúsculas, bold, etc
 - Procure implementar espaçamentos sempre para baixo, isto é, no elemento acima aplique `margin-bottom` como um efeito cascata para evitar efeitos colaterais mais sérios
+
+
+
 
 # CSS - Tópicos importantes
 
@@ -103,16 +129,3 @@ Você construir o seu reset do CSS, mas pode utilizar opções prontas, como por
 ## Sobre **Refatoração**
 - Utilizar seletores de classes modificadoras sempre junto com sua respectiva classe principal. Ex: `.buttom-store.-last`
 - Para deixar mais claro e performático nosso CSS utilizar o sinal de `**>**` entre os seletores de pais e filhos **diretos**
-
-
-## Sobre UX (para Front-end)
-### Conceitos
-- **Affordance** &rarr; é uma forma de medição da facilidade de uso e de quanto é intuitivo (entendimento) os elementos da sua interface para seus usuários e dessa forma identificar onde melhorar
-
-
-
-
-# Dicas profissionais
-- O compartilhamento de conhecimento leva à sedimenção do seu aprendizado. Aproveite!!
-- Procure utilizar termos em **inglês** no seu código e deixe em **português** o nome dos arquivos HTML
-- organize seus arquivos de código em pastas por tipo

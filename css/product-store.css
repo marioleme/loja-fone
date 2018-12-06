@@ -24,18 +24,20 @@
     cursor: pointer;
 }
 
-.product-store > .item.-heart:hover img {
-    transform: scale(1.1);
-}
-
-.product-store > .item.-star img {
+.product-store > .item.-star {
     margin-bottom: 10px;
     cursor: pointer;
 }
 
-.product-store > .item.-star img:hover {
-    transform: scale(1.1);
+.product-store > .item .icon {
+    transition: transform 100ms linear;
 }
+
+.product-store > .item .icon:hover {
+    transform: scale(1.2);
+    /*transition: transform 100ms linear; o transition aqui a animação só funciona quando entra no hover e não funciona quando sai, então deve ser colocada no elemento e não no seu hover*/
+}
+
 .product-store > .item.-star + .item {
     margin-left: 7px;
 }
