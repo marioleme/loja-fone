@@ -1,6 +1,41 @@
 .container-store {
+    box-sizing: border-box;
+    width: 90%; /* quanto deve ocupar quando o container for menor que a max-width */
+    max-width: 1335px; /* limita o tamanho do container e a distribuição de seus elementos internos */
     background-color: #e24647;
-    width: 80%;
     padding: 55px 60px 165px 0;
-    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/* media query funcionando em um dos breakpoints */
+@media (max-width: 1490px), (max-height: 900px) {
+    .container-store {
+        position: static;
+        transform: none;
+        width: 100%;
+        max-width: 100%;
+    }   
+}
+
+@media (max-height: 900px) {
+    .container-store {
+        max-width: 1335px;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+}
+
+@media (max-width: 990px) {
+    .container-store {
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 390px) {
+    .container-store {
+        padding-right: 15px;
+    }
 }
