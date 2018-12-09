@@ -93,24 +93,15 @@
 
 @media (max-width: 550px) {
     .header-store .action {
-        margin-right: 30px;
-    }
-    .header-store {
-        margin-left: 30px;
+        display: inline-block;
+        vertical-align: bottom;
+        width: 33.3333%;
+        margin: 0;
     }
 
 }
 
-@media (max-width: 465px) {
-    .header-store .action {
-        margin-right: 15px;
-    }
-    .header-store {
-        margin-left: 30px;
-    }
-}
-
-@media (max-width: 410px) {
+@media (max-width: 400px) {
     .header-store > .navigation {
         display: none;
     }
