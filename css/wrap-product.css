@@ -1,13 +1,33 @@
 .wrap-product {
     display: inline-block; /* transforma o conteúdo em comportamento de palavra para se acomodar na mesma linha da imagem */
-    width: 554px;
+    /*width: 554px;*/
+    width: 45%;
     vertical-align: middle;
     position: relative;
 }
 
-/* Troca do meu CSS wrap-button.css pelo abaixo do Marco */
 .wrap-product > .buttons {
     position: absolute;
     bottom: 0;
     transform: translateY( calc( 100% + 98px ) );
+}
+
+@media (max-width:940px) {
+   .wrap-product {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .wrap-product > .buttons {
+        position: relative;
+        bottom: 80px;
+    }
+}
+
+@media (max-width:940px) {
+    .wrap-product > .buttons {
+        position: relative;
+        bottom: 120px;
+    }
 }

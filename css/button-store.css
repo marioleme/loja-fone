@@ -54,3 +54,30 @@
     color: inherit;
     text-decoration: inherit;
 }
+
+@media (max-width:1080px) {
+    .button-store {
+        font-size: 18px;
+        width: 180px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .button-store.-second {
+        background-color: transparent;
+        border: 2px #fff solid;
+        width: 200px;
+        line-height: 36px;
+        margin-right: 25px;
+    }
+}
+
+@media (max-width:410px) {
+    .button-store,
+    .button-store.-second {
+        display: block;
+        margin: 0 auto;
+    }
+    .button-store.-second {
+        margin-bottom: 15px;
+    }
+}
