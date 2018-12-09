@@ -92,16 +92,14 @@
 }
 
 @media (max-width: 550px) {
-    .header-store .action {
-        display: inline-block;
-        vertical-align: bottom;
-        width: 33.3333%;
-        margin: 0;
+    .header-store > .navigation {
+        display: flex;
+        justify-content: center;
     }
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 410px) {
     .header-store > .navigation {
         display: none;
     }
