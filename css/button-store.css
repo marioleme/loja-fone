@@ -76,8 +76,10 @@
     .button-store.-second {
         display: block;
         margin: 0 auto;
+        width: 80%;
     }
     .button-store.-second {
         margin-bottom: 15px;
+        width: 80%;
     }
 }

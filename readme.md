@@ -129,3 +129,9 @@ Você construir o seu reset do CSS, mas pode utilizar opções prontas, como por
 ## Sobre **Refatoração**
 - Utilizar seletores de classes modificadoras sempre junto com sua respectiva classe principal. Ex: `.buttom-store.-last`
 - Para deixar mais claro e performático nosso CSS utilizar o sinal de `**>**` entre os seletores de pais e filhos **diretos**
+
+## Sobre **Valor de especificidade de seletores**
+- A hierarquia é que as atribuições dos seletores de baixo subescrevem as atribuições dos seletores de cima com o mesmo valor de especificidade
+- Esse valor de especificidade e a soma da força ou peso de cada seletor na linha de seleção
+- podemos explicar a força ou peso da seguinte maneira &rarr; `tag = 1, class e pseudoclass = 10 e id = 100`, portanto a força/peso é obtida pela soma das especificidades do seletor. Ex: `nav#navigation-menu .action` tem um valor [(`tag nav` = 1) + (`class navigation-menu` = 10) + (`class action` = 10)] = 21
+- Muitos atributos `important!` são usados sem necessidade pela má especificidade de seletores
