@@ -139,3 +139,20 @@ Você construir o seu reset do CSS, mas pode utilizar opções prontas, como por
 ## Sobre **Background**
 - o `background-image` sobrescreve `background-color``
 - para backgrounds com gradientes lineares utilize `backgound-image` e set um atributo de `background-color` como padrão no caso de problemas de incompatibilidades entre browsers 
+
+
+
+# JAVASCRIPT - Tópicos importantes
+
+## sobre **Workflow**
+- criar um arquivo JS com o mesmo nome do compomente da página
+- em linhas de comentário, listar a lógica de programação dividindo o desenvolvimento em pequenas tarefas com testes recorrentes até alcançar os objetivos
+- carregar a linha de scripts JS como as últimas linhas do `body`
+
+## sobre **Boas Práticas**
+- procure usar $ como prefixo de nome de variável quando guardar conteúdo do HTML
+
+## sobre **Características**
+- a API do Browser é o meio de campo que possibilita o código JS se ligar ao Browser para modificá-lo por meio de comandos. Ex: `document` na linha de comando do JS é da API do Browser e não do JS
+- Evento é qualquer interação do usuário no HTML
+- Uma função seguida de abrir e fechar parêntes faz a sua execução, então para controlar a execução de uma função não usar os parênteses junto com seu nome
