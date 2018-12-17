@@ -10,14 +10,22 @@ Steps:
 1 - pegar a janela -> o HTML -> e o button e colocar em uma variável constante
 2 - adicionar a essa variável um ouvinte do evento click e sua respectiva função a ser executada no momento do clique
 3 - criar a função para mostrar mensagem no console a partir do click no button
+
+
+AVANÇADO - Ao clicar no botão Adicionar no Carrinho, mudar o valor de '10' para '11' na opção de menu "Carrinho"
+Steps:
+1 - pegar a janela -> o HTML -> e o button e colocar em uma variável constante
+1 - pegar a janela -> o HTML -> e o nav e colocar em uma variável constante
+2 - adicionar a variável do botão um ouvinte de evento click e sua respectiva função a ser executada no momento do seu clique
+3 - criar função para alterar o texto do item de menu do Carrinho
 */
 
 
 const $buttonCar = window.document.querySelector(".-second");
+const $navCar = window.document.querySelector(".action.-last");
 
 $buttonCar.addEventListener("click", addCar);
 
 function addCar() {
-    console.log("Clicado! top top top");
-}
-
+    $navCar.innerHTML = "Carrinho (11)";
+};
