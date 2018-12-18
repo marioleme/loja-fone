@@ -25,7 +25,6 @@
 }
 
 .product-store > .item.-active {
-    /*background-color: #fff;*/
     background-image: url(../img/heartWhite.png);
     background-repeat: no-repeat;
 }
@@ -33,6 +32,11 @@
 .product-store > .item.-star {
     margin-bottom: 10px;
     cursor: pointer;
+}
+
+.product-store > .item .icon.-active {
+    background-image: url(../img/star-active.png);
+    background-repeat: no-repeat;
 }
 
 .product-store > .item .icon {
