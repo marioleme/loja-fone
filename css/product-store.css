@@ -25,7 +25,9 @@
 }
 
 .product-store > .item.-active {
-    background-color: #fff;
+    /*background-color: #fff;*/
+    background-image: url(../img/heartWhite.png);
+    background-repeat: no-repeat;
 }
 
 .product-store > .item.-star {
