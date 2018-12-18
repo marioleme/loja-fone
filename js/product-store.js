@@ -28,8 +28,35 @@ $heart.addEventListener("click", handleClick);
 /*
 - essa function guarda comando para serem executados com o nosso controle e não ao carregar a página
 - handleClick é um comando para lidar com um evento de click na página
+descrição dos comando dessa função
+1 - pegando o conteúdo da variável
+2 - comando para acessar e tratar a lista de classes do elemento
+3 - comando que adiciona uma classe ao elemento 
+4 - o nome da classe adicionada
 */
 
+/*function handleClick() {
+/*    1        2     3      4       
+   $heart.classList.add("-active");
+} */
+
+
+/* melhorando o código para avaliar a alternância de já existir a classe ou não trabalhando com if e os métodos
+.classList.contains --> verifica se a classe do argumento está atribuida ao elemento
+.classList.remove --> remove a classe do argumento do elemento
+.classList.add --> adiciona a classe do argumento no elemento
+
 function handleClick() {
-    console.log("Clicado");
+    if ($heart.classList.contains("-active")) {
+        $heart.classList.remove("-active");
+    } else {
+        $heart.classList.add("-active");
+    }
+}
+*/
+
+/* MELHOR COMANDO ÚNICO PARA TESTAR A ALTERNÂNCIA ACIMA */
+
+function handleClick() {
+    $heart.classList.toggle("-active");
 }

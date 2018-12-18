@@ -156,3 +156,6 @@ Você construir o seu reset do CSS, mas pode utilizar opções prontas, como por
 - a API do Browser é o meio de campo que possibilita o código JS se ligar ao Browser para modificá-lo por meio de comandos. Ex: `document` na linha de comando do JS é da API do Browser e não do JS
 - Evento é qualquer interação do usuário no HTML
 - Uma função seguida de abrir e fechar parêntes faz a sua execução, então para controlar a execução de uma função não usar os parênteses junto com seu nome
+
+## sobre **Operações**
+- o atalho de soma que utiliza `++` junto a variável funciona atribuindo o valor da variável primeiro, depois somando quando for colocado de pois da variável. Ex: myNum++ e somando a variável primeiro e depois atribuindo a variável quando for colocado antes da variável. Ex: ++myNum
