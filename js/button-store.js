@@ -20,7 +20,7 @@ Steps:
 3 - criar função para alterar o texto do item de menu do Carrinho
 */
 
-
+/* meu código
 const $buttonCar = window.document.querySelector(".-second");
 const $navCar = window.document.querySelector(".action.-last");
 
@@ -28,4 +28,14 @@ $buttonCar.addEventListener("click", addCar);
 
 function addCar() {
     $navCar.innerHTML = "Carrinho (11)";
+}; */
+
+/* código corrigido em aula Marco */
+const $buttonCar = document.querySelector(".-second");
+
+$buttonCar.addEventListener("click", addCar);
+
+function addCar() {
+    const $navCar = document.querySelector(".-last");
+    $navCar.textContent = "Carrinho (11)";
 };
