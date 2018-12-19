@@ -151,6 +151,7 @@ Você construir o seu reset do CSS, mas pode utilizar opções prontas, como por
 
 ## sobre **Boas Práticas**
 - procure usar $ como prefixo de nome de variável quando guardar conteúdo do HTML
+- procure usar nome de variável no plural quando tiver uma array (listas de elementos) e no singular para elemento único
 
 ## sobre **Características**
 - a API do Browser é o meio de campo que possibilita o código JS se ligar ao Browser para modificá-lo por meio de comandos. Ex: `document` na linha de comando do JS é da API do Browser e não do JS

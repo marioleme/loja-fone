@@ -25,18 +25,12 @@
 }
 
 .product-store > .item.-active {
-    background-image: url(../img/heartWhite.png);
-    background-repeat: no-repeat;
+    background-color: #FFF;
 }
 
 .product-store > .item.-star {
     margin-bottom: 10px;
     cursor: pointer;
-}
-
-.product-store > .item .icon.-active {
-    background-image: url(../img/star-active.png);
-    background-repeat: no-repeat;
 }
 
 .product-store > .item .icon {
@@ -46,6 +40,33 @@
 .product-store > .item .icon:hover {
     transform: scale(1.2);
     /*transition: transform 100ms linear; o transition aqui a animação só funciona quando entra no hover e não funciona quando sai, então deve ser colocada no elemento e não no seu hover*/
+}
+
+/* controlando comportamento do coração */
+.product-store .icon.-active {
+    display: none;
+}
+
+.product-store > .item.-active .icon{
+    display: none;
+}
+
+.product-store > .item.-active .icon.-active {
+    display: block;
+}
+
+/* controlando comportamento das estrelas */
+
+.product-store .star {
+    display: inline-block;
+}
+
+.product-store .star.-active > .icon {
+    display: none;
+}
+
+.product-store .star.-active > .-active {
+    display: block;
 }
 
 .product-store > .item.-star + .item {
