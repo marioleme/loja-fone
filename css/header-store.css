@@ -106,7 +106,7 @@
         color: #000;
     }
 
-    .header-store .formSearch img {
+    .header-store .formSearch > .icon {
         display: inline-block;
         width: 20px;
         vertical-align: middle;
