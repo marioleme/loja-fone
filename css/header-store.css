@@ -81,7 +81,23 @@
 
 @media (max-width: 990px) {
     .header-store input[type="search"] {
-        display: none;
+        /* display: none; */
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        transform: translateX(-86%);
+        cursor: pointer;
+        /* inserindo animação diferente na desativação do elemento */
+        transition: transform 300ms linear;
+    }
+    .header-store input[type="search"]::placeholder {
+        color: #000;
+    }
+    .header-store input[type="search"].-active {
+        transform: translateX(0);
+        /* inserindo uma animação diferente na ativação do elemento */
+        transition: transform 300ms cubic-bezier(.68,-0.55,.27,1.55);
     }
 }
 
