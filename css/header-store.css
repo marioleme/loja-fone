@@ -110,6 +110,12 @@
         display: inline-block;
         width: 20px;
         vertical-align: middle;
+        background: url(../img/searchOpen.svg) no-repeat center;
+        padding: 10px;
+    }
+
+    .header-store .formSearch > .icon.-close {
+        background: url(../img/searchClose.svg) no-repeat center;
     }
 
 }
