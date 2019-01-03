@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/container-store.css">
         <link rel="stylesheet" href="css/header-store.css">
+        <link rel="stylesheet" href="css/input-search.css">
         <link rel="stylesheet" href="css/photo-product.css">
         <link rel="stylesheet" href="css/wrap-product.css">
         <link rel="stylesheet" href="css/product-store.css">
@@ -23,10 +24,10 @@
             <header class="header-store">
                 <h1 class="title">Logo</h1>
                 <nav class="navigation">
-                   <form class="formSearch">
-                        <input type="search" placeholder="Buscar">
-                        <img class="icon">
-                        <!-- <button type="submit"></button> -->
+                   <form class="input-search">
+                        <input class="content" type="search" placeholder="Buscar">
+                        <input class="icon -open -active" type="image" src="img/searchOpen.svg">
+                        <input class="icon -close" type="image" src="img/searchClose.svg">
                    </form>
                    <a class="action" href="http://collabcode.training">Produtos</a><!--
                    --><a class="action" href="http://collabcode.training">Serviços</a><!--
@@ -85,6 +86,6 @@
         </div>
         <script src="js/product-store.js"></script>
         <script src="js/home.js"></script>
-        <script src="js/header-store.js"></script>
+        <script src="js/input-search.js"></script>
     </body>
 </html>
