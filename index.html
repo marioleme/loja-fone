@@ -29,13 +29,28 @@
                         <input class="icon -open -active" type="image" src="img/searchOpen.svg">
                         <input class="icon -close" type="image" src="img/close.svg">
                    </form>
+                   <!-- MINHA IMPLEMENTAÇÃO DE MENU HAMBURGER
                    <a class="menu-mobile" href="#menu"></a>
                    <div class="menu">
-                        <a class="close" href=""></a><!--
-                        --><a class="action" href="http://collabcode.training">Produtos</a><!--
-                        --><a class="action" href="http://collabcode.training">Serviços</a><!--
-                        --><a class="action -last" href="http://collabcode.training">Carrinho (10)</a>
+                        <a class="close" href=""></a>
+                        <a class="action" href="http://collabcode.training">Produtos</a>
+                        <a class="action" href="http://collabcode.training">Serviços</a>
+                        <a class="action -last" href="http://collabcode.training">Carrinho (10)</a>
                    </div>
+                   -->
+                   <!-- IMPLEMENTAÇÃO DO MARCO DE MENU HAMBURGER -->
+                   <ul id="menu" class="list">
+                        <li class="item -menu"><a class="menu" href="#menu">Menu</a></li>
+                        <li class="item">
+                            <a class="action" href="http://collabcode.training">Produtos</a>
+                        </li>
+                        <li class="item">
+                            <a class="action" href="http://collabcode.training">Serviços</a>
+                        </li>
+                        <li class="item -last">
+                            <a class="action" href="http://collabcode.training">Carrinho (10)</a>
+                        </li>
+                    </ul>
                 </nav>
             </header>
             <figure class="photo-product">
@@ -88,9 +103,9 @@
                 </div>
             </section>
         </div>
+        <script src="js/header-store.js"></script>
         <script src="js/product-store.js"></script>
         <script src="js/home.js"></script>
         <script src="js/input-search.js"></script>
-        <script src="js/menu-mobile.js"></script>
     </body>
 </html>
