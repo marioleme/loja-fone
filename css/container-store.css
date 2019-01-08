@@ -7,6 +7,11 @@
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
+    -webkit-box-shadow: 0px 0px 39px 0px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow: 0px 0px 39px 0px rgba(50, 50, 50, 0.4);
+    box-shadow: 0 0 39px 0 rgba(50, 50, 50, 0.4);
+
+
 }
 
 /* media query funcionando em um dos breakpoints */

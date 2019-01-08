@@ -7,6 +7,7 @@
 }
 
 .input-search > .content {
+    display: inline-block;
     background: transparent;
     border: none;
     border-bottom: 1px solid #FFFFFF;
@@ -14,7 +15,7 @@
     font-family: Arial;
     font-size: 20px;
     padding: 7px;
-    width: 180px;
+    width: 300px;
     margin-right: 65px;
 }
 
@@ -31,9 +32,10 @@
         top: 0;
         left: 0;
         background-color: #fff;
-        transform: translateX(-87%);
+        transform: translateX(-90%);
         transition: transform 300ms linear;
     }
+
     .input-search.-active {
         transform: translateX(0);
         transition: transform 300ms linear;
@@ -53,5 +55,19 @@
     .input-search .icon.-active {
         display: inline-block;
     }
+}
 
+@media (max-width: 410px) {
+    .input-search {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        transform: translateX(-86%);
+        transition: transform 300ms linear;
+    }
+    .input-search > .content {
+        padding: 6.5px;
+        width: 175px;
+    }
 }

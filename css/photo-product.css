@@ -1,18 +1,21 @@
 .photo-product {
+    background-image: linear-gradient(to right, #fff 10%,#fff 18%, rgba(126, 125, 125, 0.4) 20%, #fff 0);
     background-color: #fff;
     display: inline-block; /* permite acomodar o texto ao lado desta imagem */
     /*height: 554px;*/
     width: 40%;
     vertical-align: middle;
-    margin-right: 150px;
+    margin: 0 140px 0 -147px;
     border-radius: 0 150px 150px 0;
+    padding-left: 200px;
 }
 
 .photo-product > .imgProduct {
-    width: 100%;
+    width: 95%;
+    margin: 25px 0 0 70px;
 }
 
-@media (max-width: 1235px) {
+@media (max-width: 1335px) {
     .photo-product {
         width: 40%;
         margin-right: 100px;
@@ -22,14 +25,18 @@
 
 @media (max-width: 940px) {
     .photo-product {
+        background-image: none;
+        background-color: #fff;
         display: block;
         width: 100%;
-        margin: 0 auto 30px auto;
+        padding: 0;
         border-radius: 0;
         text-align: center;
+        margin: 0 auto 30px auto;
     }
-    
     .photo-product > .imgProduct {
         width: 70%;
+        margin: 0;
+        padding-top: 20px;
     }
 }

@@ -18,14 +18,10 @@
 
 .product-store > .item.-heart {
     position: absolute;
-    top: 8px;
+    top: 5px;
     transform: translateX(-100%);
     left: -47px;
     cursor: pointer;
-}
-
-.product-store > .item.-active {
-    background-color: #FFF;
 }
 
 .product-store > .item.-star {
@@ -47,12 +43,12 @@
     display: none;
 }
 
-.product-store > .item.-active .icon{
+.product-store > .item.-active .icon {
     display: none;
 }
 
 .product-store > .item.-active .icon.-active {
-    display: block;
+    display: inline-block;
 }
 
 /* controlando comportamento das estrelas */
@@ -99,7 +95,7 @@
     text-decoration: none;
 }
 
-@media (max-width:1235px) {
+@media (max-width:1335px) {
     .product-store > .title {
         margin-bottom: 30px;
     }
@@ -111,11 +107,8 @@
     .product-store > .item.-last {
         margin-bottom: 30px;
     }
-}
-
-@media (max-width:1080px) {
     .product-store > .item.-heart {
-        left: -30px;
+        left: -25px;
     }
 }
 

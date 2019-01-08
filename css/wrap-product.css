@@ -12,6 +12,11 @@
     transform: translateY( calc( 100% + 98px ) );
 }
 
+@media (max-width:1335px) {
+   .wrap-product {
+        width: 43%;
+    }
+}
 @media (max-width:940px) {
    .wrap-product {
         width: 100%;
