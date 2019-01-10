@@ -1,6 +1,5 @@
 .wrap-product {
-    display: inline-block; /* transforma o conteúdo em comportamento de palavra para se acomodar na mesma linha da imagem */
-    /*width: 554px;*/
+    display: inline-block;
     width: 45%;
     vertical-align: middle;
     position: relative;
@@ -17,6 +16,7 @@
         width: 43%;
     }
 }
+
 @media (max-width:940px) {
    .wrap-product {
         width: 100%;

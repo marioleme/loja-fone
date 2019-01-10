@@ -1,6 +1,7 @@
 .header-store {
     color: #FFFFFF;
     margin: 0 0 100px 60px;
+    z-index: 10;
 }
 
 .header-store > .title {
@@ -62,6 +63,7 @@
     .header-store {
         margin-right: 60px;
     }
+}
 
 @media (max-width: 1335px) {
     .header-store {
@@ -73,6 +75,7 @@
         text-align: center;
         margin-bottom: 20px;
     }
+
     .header-store > .navigation {
         float: none;
         text-align: center;
@@ -92,14 +95,13 @@
         justify-content: center;
 
     }
+
     .header-store .item {
         margin-right: 20px;
     }
-
 }
 
 @media (max-width: 410px) {
-
     .header-store {
         margin: 0 0 20px 0;
     }
@@ -107,7 +109,7 @@
     .header-store .item.-menu {
         display: block;
         background: url(../img/bars.svg) #fff no-repeat center;
-        background-size: 60%; /* eu implementei para controlar o SVG */
+        background-size: 60%;
         text-indent: -9999px;
         width: 39px;
         height: 39px;
@@ -117,12 +119,11 @@
         margin: 0;
         cursor: pointer;
         transform: translateX(-100%);
-        /* propriedade transi  delay duração velocidade*/
         transition: transform 400ms 100ms linear;
     }
 
     .header-store .list {
-        background-color: rgba(255,255,255,0.9);
+        background-color: rgba(255, 255, 255, 0.9);
         color: #000;
         width: 100%;
         position: absolute;
@@ -131,13 +132,14 @@
         padding: 50px 0 20px 0;
         transform: translateX(100%);
         transition: transform 300ms linear;
+        z-index: 2;
     }
 
     .header-store .list.-active {
         transform: translateX(0);
     }
 
-    .header-store .list.-active .item.-menu{
+    .header-store .list.-active .item.-menu {
         background: url(../img/close.svg) #fff no-repeat center;
         background-size: 50%;
         transform: translateX(0);

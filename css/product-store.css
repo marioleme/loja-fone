@@ -35,10 +35,8 @@
 
 .product-store > .item .icon:hover {
     transform: scale(1.2);
-    /*transition: transform 100ms linear; o transition aqui a animação só funciona quando entra no hover e não funciona quando sai, então deve ser colocada no elemento e não no seu hover*/
 }
 
-/* controlando comportamento do coração */
 .product-store .icon.-active {
     display: none;
 }
@@ -50,8 +48,6 @@
 .product-store > .item.-active .icon.-active {
     display: inline-block;
 }
-
-/* controlando comportamento das estrelas */
 
 .product-store .star {
     display: inline-block;
@@ -146,5 +142,4 @@
     .product-store > .text {
         margin: 0 30px 30px;
     }
-
 }

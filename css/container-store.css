@@ -1,6 +1,6 @@
 .container-store {
-    width: 90%; /* quanto deve ocupar quando o container for menor que a max-width */
-    max-width: 1335px; /* limita o tamanho do container e a distribuição de seus elementos internos */
+    width: 90%;
+    max-width: 1335px;
     background-color: #e24647;
     padding: 55px 60px 165px 0;
     position: absolute;
@@ -14,7 +14,6 @@
 
 }
 
-/* media query funcionando em um dos breakpoints */
 @media (max-width: 1490px), (max-height: 900px) {
     .container-store {
         position: static;

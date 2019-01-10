@@ -26,6 +26,7 @@
 .input-search > .icon {
     display: none;
 }
+
 @media (max-width: 990px) {
     .input-search {
         position: absolute;
