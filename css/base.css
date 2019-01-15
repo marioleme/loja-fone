@@ -9,6 +9,7 @@ body {
 }
 
 @media (max-width: 410px) {
+    html,
     body {
         overflow-x: hidden;
     }
